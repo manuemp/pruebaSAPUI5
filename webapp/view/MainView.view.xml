@@ -8,7 +8,11 @@
             <pages>
                 <Page id="page" title="{i18n>title}">
                     <content>
-                        <Text text="Hola Mundo" id="texto"></Text>
+                        <Panel headerText="{i18n>selectionScreen}" id="panel">
+                            <Label id="labelShipName" labelFor="shipName" text="{i18n>shipName}" class="sapUiSmallMargin" />
+                            <Input id="shipName" width="200px" class="sapUiTinyMargin"></Input>
+                            <Label id="labelCountry" labelFor="country" text="{i18n>country}" class="sapUiSmallMargin" />
+                        </Panel>
                     </content>
                 </Page>
             </pages>
